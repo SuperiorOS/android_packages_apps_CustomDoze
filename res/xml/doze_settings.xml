@@ -26,7 +26,7 @@
             android:title="@string/aod_setting_title"
             android:summary="@string/aod_setting_summary" />
 
-        <com.havoc.support.preferences.SystemSettingSwitchPreference
+        <com.superior.support.preferences.SystemSettingSwitchPreference
             android:key="doze_on_charge"
             android:defaultValue="false"
             android:title="@string/doze_on_charge_title"
@@ -44,7 +44,7 @@
         android:key="double_tap"
         android:title="@string/double_tap_title" >
 
-        <com.havoc.support.preferences.SystemSettingSwitchPreference
+        <com.superior.support.preferences.SystemSettingSwitchPreference
             android:key="doze_trigger_doubletap"
             android:defaultValue="false"
             android:title="@string/doze_double_tap_title"
